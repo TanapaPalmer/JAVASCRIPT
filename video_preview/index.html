@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoLab</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="top">
+        <div class="nav-container">
+            <h1>VideoLab</h1>
+            <input type="text" placeholder="Search" name="query" class="search">
+            <button class="btn">Login</button>
+        </div>
+    </div>
+
+    <div class="flex-container">
+
+        <div class="col-l">
+            <div class="placeholder">
+                <video src="./town.mp4" alt="town" class="big-v" controls muted></video>
+            </div>
+
+            <div class="row">
+                <div class="start">
+                    <h1>Let's have some adventure!</h1>
+                    <h2>Amazing Town</h2>
+                    <h3>1.3K Views | June, 18, 2021</h3>
+                    <div class="user">
+                        <img src="assets/user.png" type="video/mp4" class="avatar-s">
+                        <span class="user-name">TravelGirl</span>
+                    </div>
+                </div>
+                <button class="btn">Subscribe</button>
+            </div>
+
+        </div>
+
+
+        <div class="col-r">
+
+            <h3 class="sub-header">Up Next</h3>
+
+            <div class="video-small">
+                <video src="./mountain.mp4" alt="mountain" class="vids" controls muted></video>
+                <span class="video-title">Mountain lover</span>
+            </div>
+
+            <div class="video-small">
+                <video src="./waterfall.mp4" alt="waterfall" class="vids" controls muted></video>
+                <span class="video-title">Lovely Waterfall</span>
+            </div>
+
+            <div class="video-small">
+                <video src="./forest.mp4" alt="forest" class="vids" controls muted></video>
+                <span class="video-title">Beautiful Forest</span>
+            </div>
+
+            <div class="video-small">
+                <video src="./snow.mp4" alt="snow" class="vids" controls muted></video>
+                <span class="video-title">Snow Time</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

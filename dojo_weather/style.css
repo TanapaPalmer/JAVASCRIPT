@@ -1,0 +1,145 @@
+html {
+    font-family: cursive;
+}
+
+body {
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    margin: 0px;
+    background-color: #95b9c7;
+
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+
+}
+
+
+#nav h1 {
+    font-size: 40px;
+    color: white;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+li {
+    display: inline;
+}
+
+
+
+#title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.temp {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 530px;
+}
+
+hr {
+    width: 60%;
+}
+
+.choiceOfTemp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.days {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.eachDays {
+    width: 180px;
+    background-color: rgb(237, 227, 227);
+    text-align: center;
+}
+
+.days img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.days h4 {
+    display: inline;
+    font-size: 18px;
+}
+
+.eachDays #red1, #red2, #red3, #red4 {
+    color: rgb(226, 77, 107);
+}
+
+.eachDays #blue1, #blue2, #blue3, #blue4 {
+    color: rgb(78, 138, 222);
+}
+
+#city_alert {
+    display: flex;
+    position: absolute;
+    left: 21%;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.detail {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 823px;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(237, 227, 227);
+}
+
+.detail button {
+    height: 30px;
+    width: 200px;
+    background-color: #95b9c7;
+    box-shadow: 2px 2px 2px 1px black;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.tempe {
+    display: flex;
+    justify-content: space-around;
+}
+
+.moreLinks {
+    display: flex;
+    justify-content: space-around;
+}

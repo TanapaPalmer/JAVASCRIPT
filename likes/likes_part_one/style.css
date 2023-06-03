@@ -1,0 +1,37 @@
+html {
+    font-family: cursive;
+}
+
+h1 {
+    font-size: large;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.likes_block {
+    height: 100px;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid black;
+    display: inline;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+}
+
+.likes_block button {
+    background-color:rgb(241, 240, 164);
+    box-shadow: 2px 2px 2px 1px black;
+    width: 100px;
+    height: 35px;
+    font-family: cursive;
+    font-size: 15px;
+}

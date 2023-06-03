@@ -1,0 +1,108 @@
+html {
+    font-family: cursive;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.bar {
+    background-color: black;
+    height: 80px;
+    width: 650px;
+    margin: 0;
+    padding-left: 40px;
+    display:flex;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+
+}
+
+.bar h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#head_line {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header h1 {
+    text-align: center;
+}
+
+
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 650px;
+    height: 500px;
+}
+
+
+.info img {
+    height: 75px;
+    width: 75px;
+}
+
+h2 {
+    font-size: larger;
+}
+
+.info {
+    height: 200px;
+    width: 130px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#left_col {
+    flex: 2;
+}
+
+#right_col {
+    flex: 3;
+}
+
+
+.likes_block {
+    padding: 20px;
+    border: 3px solid black;
+    height: 120px;
+    width: 400px;
+    margin-bottom: 20px;
+    
+
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+.likes_block button {
+    background-color:rgb(241, 240, 164);
+    box-shadow: 2px 2px 2px 1px black;
+    width: 100px;
+    height: 35px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.more_info {
+    display: block;
+    flex-direction: column;

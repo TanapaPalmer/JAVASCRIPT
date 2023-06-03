@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <div id="nav">
+        <div class="links">
+            <h1>DojoWeather</h1>
+                <ul>
+                    <li><a href="#" onclick="alert('Loading weather report...')">Burbank</a></li>
+                    |
+                    <li><a href="#" onclick="alert('Loading weather report...')">Chicago</a></li>
+                    |
+                    <li><a href="#" onclick="alert('Loading weather report...')">Dallas</a></li>
+                </ul>
+        </div>
+    </div>
+
+    <div id="title">
+        <div class="temp">
+            <h2>San Jose</h2>
+            <div class="choiceOfTemp">
+                <p>show temperature in</p>
+                <label>
+                    <select id="select" onchange="tempConvert(this)">
+                        <option id="celcius">°C</option>
+                        <option id="farenheit">°F</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+    </div>
+    
+    <hr>
+    
+    <div class="days">
+        <div class="eachDays">
+            <h3>Today</h3>
+            <img src="./assets/some_rain.png" alt="some rain" class ="rain-icon">
+            <p>some rain</p>
+            <div class="tempe">
+                <h4 id="red1">24°</h4>
+                <h4 id="blue1">18°</h4>
+            </div>
+        </div>
+        <div class="eachDays">
+            <h3>Tomorrow</h3>
+            <img src="./assets/some_sun.png" alt="some sun" class ="sun-icon">
+            <p>some sun</p>
+            <div class="tempe">
+                <h4 id="red2">27°</h4>
+                <h4 id="blue2">19°</h4>
+            </div>
+        </div>
+        <div class="eachDays">
+            <h3>Friday</h3>
+            <img src="./assets/some_clouds.png" alt="some clouds" class ="clouds-icon">
+            <p>some clouds</p>
+            <div class="tempe">
+                <h4 id="red3">21°</h4>
+                <h4 id="blue3">16°</h4>
+            </div>
+        </div>
+        <div class="eachDays">
+            <h3>Saturday</h3>
+            <img src="./assets/some_sun.png" alt="some sun" class ="sun-icon">
+            <p>some sun</p>
+            <div class="tempe">
+                <h4 id="red4">26°</h4>
+                <h4 id="blue4">21°</h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="city_alert">
+        <div class="detail">
+            <img src="./assets/cookie.png" alt="cokkie icon" class="cookie-icon">
+            <nav>
+                <h4>Stop! Cookie Time</h4>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </nav>
+            <button onclick="cookieRemove(this)">I Accept</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
